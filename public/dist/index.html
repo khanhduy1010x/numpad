@@ -42,7 +42,9 @@
 <div id="magic"></div>
 <div class="playground">
   <div class="bottomPosition">
-    
+    <div style="margin-bottom: 35px;">    <a href="#review" class="neon-button" onclick="scrollToIframe2()">View Model 3D</a>
+    </div>
+
         <h1 class="special">EXE 201<br><span class="minText">Created by GROUP 5</span></h1>
   </div>
 </div>
@@ -69,7 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const mouseUpEvent = new MouseEvent("mouseup", {
                 bubbles: true,
                 cancelable: true,
-                clientX: window.innerWidth / 2,
+                clientX: window.innerWidth / 3,
                 clientY: window.innerHeight / 2
             });
 
@@ -81,6 +83,11 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+</script>
+<script>
+  function scrollToIframe2() {
+      window.parent.postMessage("scrollToIframe2", "*");
+  }
 </script>
 </body>
 </html>
