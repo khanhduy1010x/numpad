@@ -77,7 +77,6 @@ body, html {
 }
 
 .model-container {
-  height: 80vh;
   width: 100%;
 }
 /* General Styles */
@@ -89,9 +88,8 @@ body {
 }
 
 .container {
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+
 }
 
 /* Hero Section */

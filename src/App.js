@@ -8,13 +8,14 @@ import GallerySection from "./component/GallerySection";
 import ContactSection from "./component/ContactSection";
 import Footer from "./component/Footer";
 import ModelSection from "./component/ModelSection";
+import Welcome from "./component/Welcome";
 
 const App = () => {
 
   return (
     <div className="container">
-    <Header/>
       {/* Model Section */}
+      <Welcome/>
       <ModelSection/>
       {/* Features Section */}
       <FeaturesSection/>
